@@ -32,24 +32,26 @@ A MERN Stack-based mood tracking journal where users can log their daily moods a
 ```bash
 git clone https://github.com/Y4shPatel/MoodJournal.git
 cd MoodJournal
-
+```
 
 ### 2. Start the Backend
 ```bash
 cd backend
 npm install
 
-### 3. Create a .env file in the backend folder and add:
+Create a .env file in the backend folder and add:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
 
-### 4. Then start the backend server:
-```bash
+Then start the backend server:
+bash
 npm run start
+```
 
-### 5.Setup frontend
+### 3.Setup frontend
 ```bash
 cd ../frontend
 npm install
 npm run dev
+```
