@@ -34,19 +34,22 @@ git clone https://github.com/Y4shPatel/MoodJournal.git
 cd MoodJournal
 
 
-//Start the Backend
+### 2. Start the Backend
+```bash
 cd backend
 npm install
 
-//Create a .env file in the backend folder and add:
+### 3. Create a .env file in the backend folder and add:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
 
-//Then start the backend server:
+### 4. Then start the backend server:
+```bash
 npm run start
 
-//setup frontend
+### 5.Setup frontend
+```bash
 cd ../frontend
 npm install
 npm run dev
