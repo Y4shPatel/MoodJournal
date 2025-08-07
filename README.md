@@ -14,7 +14,7 @@ A MERN Stack-based mood tracking journal where users can log their daily moods a
 
 **Frontend:**
 - React.js
-- Redux Toolkit
+- Zustand
 - Tailwind CSS
 - Axios
 
